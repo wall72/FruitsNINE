@@ -1,0 +1,286 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		466507E1139CEF40003C8F6F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 466507E0139CEF40003C8F6F /* UIKit.framework */; };
+		466507E3139CEF40003C8F6F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 466507E2139CEF40003C8F6F /* Foundation.framework */; };
+		466507E5139CEF40003C8F6F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 466507E4139CEF40003C8F6F /* CoreGraphics.framework */; };
+		466507EB139CEF40003C8F6F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 466507E9139CEF40003C8F6F /* InfoPlist.strings */; };
+		466507EE139CEF40003C8F6F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 466507ED139CEF40003C8F6F /* main.m */; };
+		466507F1139CEF40003C8F6F /* FruitsNINEAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 466507F0139CEF40003C8F6F /* FruitsNINEAppDelegate.m */; };
+		466507F4139CEF40003C8F6F /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 466507F2139CEF40003C8F6F /* MainWindow.xib */; };
+		466507F7139CEF40003C8F6F /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 466507F6139CEF40003C8F6F /* RootViewController.m */; };
+		466507FA139CEF40003C8F6F /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 466507F8139CEF40003C8F6F /* RootViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		466507DC139CEF40003C8F6F /* FruitsNINE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FruitsNINE.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		466507E0139CEF40003C8F6F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		466507E2139CEF40003C8F6F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		466507E4139CEF40003C8F6F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		466507E8139CEF40003C8F6F /* FruitsNINE-Info.plist */ = {isa = PBXFileReference; path = "FruitsNINE-Info.plist"; sourceTree = "<group>"; };
+		466507EA139CEF40003C8F6F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		466507EC139CEF40003C8F6F /* FruitsNINE-Prefix.pch */ = {isa = PBXFileReference; path = "FruitsNINE-Prefix.pch"; sourceTree = "<group>"; };
+		466507ED139CEF40003C8F6F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		466507EF139CEF40003C8F6F /* FruitsNINEAppDelegate.h */ = {isa = PBXFileReference; path = FruitsNINEAppDelegate.h; sourceTree = "<group>"; };
+		466507F0139CEF40003C8F6F /* FruitsNINEAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FruitsNINEAppDelegate.m; sourceTree = "<group>"; };
+		466507F3139CEF40003C8F6F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		466507F5139CEF40003C8F6F /* RootViewController.h */ = {isa = PBXFileReference; path = RootViewController.h; sourceTree = "<group>"; };
+		466507F6139CEF40003C8F6F /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		466507F9139CEF40003C8F6F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		466507D9139CEF40003C8F6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				466507E1139CEF40003C8F6F /* UIKit.framework in Frameworks */,
+				466507E3139CEF40003C8F6F /* Foundation.framework in Frameworks */,
+				466507E5139CEF40003C8F6F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		466507D1139CEF40003C8F6F = {
+			isa = PBXGroup;
+			children = (
+				466507E6139CEF40003C8F6F /* FruitsNINE */,
+				466507DF139CEF40003C8F6F /* Frameworks */,
+				466507DD139CEF40003C8F6F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		466507DD139CEF40003C8F6F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				466507DC139CEF40003C8F6F /* FruitsNINE.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		466507DF139CEF40003C8F6F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				466507E0139CEF40003C8F6F /* UIKit.framework */,
+				466507E2139CEF40003C8F6F /* Foundation.framework */,
+				466507E4139CEF40003C8F6F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		466507E6139CEF40003C8F6F /* FruitsNINE */ = {
+			isa = PBXGroup;
+			children = (
+				466507EF139CEF40003C8F6F /* FruitsNINEAppDelegate.h */,
+				466507F0139CEF40003C8F6F /* FruitsNINEAppDelegate.m */,
+				466507F2139CEF40003C8F6F /* MainWindow.xib */,
+				466507F5139CEF40003C8F6F /* RootViewController.h */,
+				466507F6139CEF40003C8F6F /* RootViewController.m */,
+				466507F8139CEF40003C8F6F /* RootViewController.xib */,
+				466507E7139CEF40003C8F6F /* Supporting Files */,
+			);
+			path = FruitsNINE;
+			sourceTree = "<group>";
+		};
+		466507E7139CEF40003C8F6F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				466507E8139CEF40003C8F6F /* FruitsNINE-Info.plist */,
+				466507E9139CEF40003C8F6F /* InfoPlist.strings */,
+				466507EC139CEF40003C8F6F /* FruitsNINE-Prefix.pch */,
+				466507ED139CEF40003C8F6F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		466507DB139CEF40003C8F6F /* FruitsNINE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 466507FD139CEF40003C8F6F /* Build configuration list for PBXNativeTarget "FruitsNINE" */;
+			buildPhases = (
+				466507D8139CEF40003C8F6F /* Sources */,
+				466507D9139CEF40003C8F6F /* Frameworks */,
+				466507DA139CEF40003C8F6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FruitsNINE;
+			productName = FruitsNINE;
+			productReference = 466507DC139CEF40003C8F6F /* FruitsNINE.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		466507D3139CEF40003C8F6F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "타임교육";
+			};
+			buildConfigurationList = 466507D6139CEF40003C8F6F /* Build configuration list for PBXProject "FruitsNINE" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 466507D1139CEF40003C8F6F;
+			productRefGroup = 466507DD139CEF40003C8F6F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				466507DB139CEF40003C8F6F /* FruitsNINE */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		466507DA139CEF40003C8F6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				466507EB139CEF40003C8F6F /* InfoPlist.strings in Resources */,
+				466507F4139CEF40003C8F6F /* MainWindow.xib in Resources */,
+				466507FA139CEF40003C8F6F /* RootViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		466507D8139CEF40003C8F6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				466507EE139CEF40003C8F6F /* main.m in Sources */,
+				466507F1139CEF40003C8F6F /* FruitsNINEAppDelegate.m in Sources */,
+				466507F7139CEF40003C8F6F /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		466507E9139CEF40003C8F6F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				466507EA139CEF40003C8F6F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		466507F2139CEF40003C8F6F /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				466507F3139CEF40003C8F6F /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		466507F8139CEF40003C8F6F /* RootViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				466507F9139CEF40003C8F6F /* en */,
+			);
+			name = RootViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		466507FB139CEF40003C8F6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		466507FC139CEF40003C8F6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		466507FE139CEF40003C8F6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FruitsNINE/FruitsNINE-Prefix.pch";
+				INFOPLIST_FILE = "FruitsNINE/FruitsNINE-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		466507FF139CEF40003C8F6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FruitsNINE/FruitsNINE-Prefix.pch";
+				INFOPLIST_FILE = "FruitsNINE/FruitsNINE-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		466507D6139CEF40003C8F6F /* Build configuration list for PBXProject "FruitsNINE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				466507FB139CEF40003C8F6F /* Debug */,
+				466507FC139CEF40003C8F6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		466507FD139CEF40003C8F6F /* Build configuration list for PBXNativeTarget "FruitsNINE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				466507FE139CEF40003C8F6F /* Debug */,
+				466507FF139CEF40003C8F6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 466507D3139CEF40003C8F6F /* Project object */;
+}
