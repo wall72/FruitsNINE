@@ -34,7 +34,7 @@ FruitsNINE is an old palm app.
 
 ---
 
-###License Info.
+##License Info.
 * Copyright 2016 Cliff W. Lee
 * Released under the MIT license
 * changho.lee@gmail.com
