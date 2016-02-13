@@ -22,7 +22,8 @@ FruitsNINE is an old palm app.
 3. The first fruit on the left on top can be placed in an empty cell.
 4. If a put fruit and eight fruits around it differ respectively, all nine fruits are removed.
 
-#####[AppStore] : [FruitsNINE](https://itunes.apple.com/us/app/fruitsnine/id442912471?mt=8)
+#####[AppStore]
++ Link : [FruitsNINE](https://itunes.apple.com/us/app/fruitsnine/id442912471?mt=8)
 
 ---
 
