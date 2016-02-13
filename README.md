@@ -31,7 +31,7 @@ FruitsNINE is an old palm app.
 * NiceNine
 * OS : Palm OS
 * Author : Yoshitaka Nagano
-* URL : http://www.freewarepalm.com/games/summing.shtml
+* URL : [freewarepalm-nicenine](http://www.freewarepalm.com/games/nicenine.shtml)
 
 ---
 
