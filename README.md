@@ -2,7 +2,7 @@
 
 ## Repository Info.
 + Simple iOS Game~
-+ I made this game in four hours.
++ I made this game just four hours in 2011.
 + old style objective-C sources
 + no ARC, support iOS 4.2
 
